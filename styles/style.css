@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar Styles Starts */
+.nav-container {
+  height: 20vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  padding: 35px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.logo-info1 {
+  height: 70px;
+  margin-left: 10px;
+  color: rgb(0, 149, 255);
+}
+.logo-info2 {
+  height: 70px;
+  margin-left: 10px;
+}
+.items {
+  display: flex;
+  list-style: none;
+}
+.item {
+  padding: 35px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+/* Navbar Styles End */
+
+/* Header Styles Starts */
+.header-container {
+  background-image: url("../images/banner/banner3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.header-info {
+  margin: 0% 10% 30% 70%;
+}
+.header-title {
+  color: white;
+  font-weight: 800;
+  font-size: 70px;
+  padding: 5px;
+}
+.header-info-details {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.btn-one {
+  font-size: 20px;
+  margin-left: 50%;
+  color: white;
+  padding: 5px 20px;
+  background-color: red;
+  border-radius: 10px;
+  width: 160px;
+  height: 64px;
+}
+/* Header Styles Ends */
+
+/* Main Styles Starts */
+
+.previous-year-failour {
+  width: 70vw;
+  height: 150vh;
+  margin: 10px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.pyf-title {
+  margin-bottom: 15px;
+}
+.pyf-description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.pyf-details {
+  margin-left: 15px;
+}
+
+.milestone-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.new-milestones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 200px;
+}
+
+#mindset {
+  background-image: linear-gradient( rgba(57, 72, 186, 0.912), rgba(52, 91, 149, 0.273)),url("../images/watch.png");
+  /* width: 80%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px; */
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 300px;
+  margin: 40px 200px;
+}
+.mindset-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 6% 3%;
+  width: 459px;
+height: 94px;
+color: #FFFFFF;
+}
+.mindset-btn {
+  font-size: 20px;
+  margin: 0% 5%;
+  color: #005fac;
+  padding: 0px 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+}
+/* Main Styles End  */
