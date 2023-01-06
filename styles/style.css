@@ -15,7 +15,6 @@
   display: flex;
   padding: 35px;
   font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
 }
 .logo-info1 {
@@ -34,7 +33,6 @@
 .item {
   padding: 35px;
   font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
 }
 /* Navbar Styles End */
@@ -76,9 +74,9 @@
 /* Main Styles Starts */
 
 .previous-year-failour {
-  width: 70vw;
-  height: 150vh;
-  margin: 10px 200px;
+  width: 80vw;
+  height: 100vh;
+  margin: 80px 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +86,6 @@
   margin-bottom: 15px;
 }
 .pyf-description {
-  font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -99,7 +96,6 @@
 }
 
 .milestone-title {
-  font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -114,38 +110,83 @@
 }
 
 #mindset {
-  background-image: linear-gradient( rgba(57, 72, 186, 0.912), rgba(52, 91, 149, 0.273)),url("../images/watch.png");
-  /* width: 80%;
-  height: 400px;
-  background-size: cover;
-  color: white;
-  padding: 20px; */
+  background-image: linear-gradient(
+      rgba(17, 11, 123, 0.999),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/watch.png");
   border-radius: 8px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1140px;
-  height: 300px;
-  margin: 40px 200px;
+  margin:0% 20% 5%;
+
 }
 .mindset-title {
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  margin: 6% 3%;
-  width: 459px;
-height: 94px;
-color: #FFFFFF;
+  font-size: 25px;
+  margin: 40px;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+
 }
 .mindset-btn {
+  font-weight: 600;
   font-size: 20px;
-  margin: 0% 5%;
+  margin: 5%;
   color: #005fac;
-  padding: 0px 10px;
   background-color: white;
   border-radius: 10px;
   width: 120px;
   height: 40px;
 }
 /* Main Styles End  */
+
+/* Footer Styles Starts  */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  background: #151414;
+  margin-bottom: 100px;
+}
+.future {
+  font-weight: 400;
+  font-size: 25px;
+  height: 100%;
+  width: 400px;
+  color: white;
+  margin-top: 20px;
+}
+.future p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.subscribe {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.email {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  color: #151414;
+  padding-top: 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.btn-subs {
+  font-size: 15px;
+  color: white;
+  padding: 0px 10px;
+  background: #005fac;
+  width: 150px;
+  height: 50px;
+}
