@@ -157,10 +157,9 @@ ul li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background: #151414;
-  margin-bottom: 100px;
 }
 .future {
   font-weight: 400;
