@@ -4,12 +4,11 @@
 }
 /* Navbar Styles Starts */
 .nav-container {
-  height: 20vh;
-  width: 100%;
   background-color: aqua;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
 }
 .logo-container {
   display: flex;
@@ -31,45 +30,59 @@
   list-style: none;
 }
 .item {
-  padding: 35px;
+  padding: 15px;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: bold;
+  margin-right: 10px;
 }
 /* Navbar Styles End */
 
-/* Header Styles Starts */
-.header-container {
+/* Banner Styles Starts */
+.banner-container {
   background-image: url("../images/banner/banner3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-.header-info {
-  margin: 0% 10% 30% 70%;
+.banner-details {
+  text-align: right;
+  width: 70%;
 }
-.header-title {
+
+.banner-title {
   color: white;
-  font-weight: 800;
-  font-size: 70px;
-  padding: 5px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 80%;
 }
-.header-info-details {
+span {
+  color: red;
+}
+.banner-description {
+  text-align: center;
+  margin-left: 80%;
   color: white;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .btn-one {
   font-size: 20px;
   margin-left: 50%;
-  color: white;
+  color: blue;
   padding: 5px 20px;
-  background-color: red;
+  background-color: white;
   border-radius: 10px;
   width: 160px;
   height: 64px;
 }
-/* Header Styles Ends */
+/* Banner Styles Ends */
 
 /* Main Styles Starts */
 
@@ -93,7 +106,9 @@
   font-size: 16px;
   color: #444343;
   margin-bottom: 15px;
-
+}
+ul li {
+  list-style: none;
 }
 .milestone-title {
   font-weight: 700;
@@ -109,17 +124,13 @@
 }
 
 #mindset {
-  background-image: linear-gradient(
-      rgba(15, 10, 105, 0.999),
-      rgba(0, 0, 0, 0)
-    ),
+  background-image: linear-gradient(rgba(15, 10, 105, 0.999), rgba(0, 0, 0, 0)),
     url("../images/watch.png");
   border-radius: 8px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin:0% 20% 5%;
-
+  margin: 0% 20% 5%;
 }
 .mindset-title {
   font-weight: 700;
@@ -128,7 +139,6 @@
   width: 200px;
   height: 50px;
   color: #ffffff;
-
 }
 .mindset-btn {
   font-weight: 600;
